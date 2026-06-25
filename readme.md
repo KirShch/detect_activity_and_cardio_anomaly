@@ -1,6 +1,6 @@
-# detect_activity_and_cardio_anomaly
+# detect_activity
 
-Two neural networks: first - detect activity by accelerometer and gyroscope, second - detect anomaly by type of activity and PPG.
+Two neural network: detect activity by accelerometer and gyroscope.
 
 ## Dataset
 
