@@ -1,6 +1,6 @@
 # detect_activity
 
-Two neural network: detect activity by accelerometer and gyroscope.
+TinyML: detect activity by accelerometer and gyroscope.
 
 ## Dataset
 
