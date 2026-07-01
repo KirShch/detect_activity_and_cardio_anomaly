@@ -1,5 +1,35 @@
-## Third-Party Data
+MIT License
 
-This project uses the UCI HAR Dataset, which is licensed under CC BY 4.0.
-Original authors: Davide Anguita et al., University of Genova, Italy.
-Source: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+Copyright (c) 2026 [Kirill Shchelchkov]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Third-Party Components
+
+### Dataset
+- UCI HAR Dataset by Davide Anguita et al. (CC BY 4.0)
+- Source: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+
+### Libraries
+- TensorFlow (Apache 2.0) - https://github.com/tensorflow/tensorflow
+- NumPy (BSD-3) - https://numpy.org/
+- Pandas (BSD-3) - https://pandas.pydata.org/
+- scikit-learn (BSD-3) - https://scikit-learn.org/
+- Matplotlib (PSF/BSD-compatible) - https://matplotlib.org/
+- TensorFlow Model Optimization (Apache 2.0) - https://github.com/tensorflow/model-optimization
