@@ -28,3 +28,12 @@ This project uses the SIDDHA dataset from [neuromorphic-polito/siddha](https://h
 - `UCI_HAR_train.ipynb` — основной pipeline (data → train → optimize → benchmark)
 - `requirements_UCI_HAR.txt` — зависимости
 - `har_model_int8.tflite` — финальная модель для MCU
+
+
+
+## Model Evolution
+
+| Stage | Params | Size | Accuracy | F1 | Inference |
+|-------|--------|------|----------|----|-----------|
+| Baseline | 23K | 92 KB | 93.2% | 93.2% | 43.3 ms |
+| TFLite INT8 | 23K | 62 KB | 92.8% | 92.9% | 4.7 ms (9.18x faster) |
