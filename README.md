@@ -17,3 +17,14 @@ This project uses the **Human Activity Recognition Using Smartphones Dataset** f
 **Citation:**
 
 This project uses the SIDDHA dataset from [neuromorphic-polito/siddha](https://huggingface.co/datasets/neuromorphic-polito/siddha) on Hugging Face, which is distributed under the MIT License.
+
+
+
+## Quick Start
+
+Основной notebook: [`UCI_HAR_train.ipynb`](./UCI_HAR_train.ipynb) — полное описание от загрузки данных до deployment.
+
+### Структура:
+- `UCI_HAR_train.ipynb` — основной pipeline (data → train → optimize → benchmark)
+- `requirements_UCI_HAR.txt` — зависимости
+- `har_model_int8.tflite` — финальная модель для MCU
